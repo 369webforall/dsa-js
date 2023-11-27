@@ -4,6 +4,10 @@
 
 Data Structures and Algorithms in JavaScript
 
+## Class recording
+
+[DSA-1](https://youtu.be/K0rzX_fS2MU)
+
 # Content
 
 1. Arrays
@@ -19,7 +23,7 @@ eg. if you have list of name and want to sort from A to Z then we can use sortin
 
 ## Solve problem
 
-- Data Structures in JavaScript ( Top 5 Questions ) - Frontend DSA Interview Questions
+- Data Structures in JavaScript ( Top 4 Questions ) - Frontend DSA Interview Questions
 
 ```javascript
 // Ques 1 - Palindrome Number
@@ -59,6 +63,7 @@ var fib = function (n) {
 };
 
 // Recursive Solution
+
 const fib = function (n) {
   if (n <= 1) return n;
 
