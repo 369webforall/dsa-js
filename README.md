@@ -196,3 +196,61 @@ Example 1:
 Input: nums = [3,0,1]
 Output: 2
 Explanation: n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.
+
+## Big O Notation / Time complexity
+
+Big O Notation
+Also referred to as time complexity
+which one is better Implementation
+
+const sumUpTo = (n) => {
+let total = 0;
+for (let i = 1; i <= n; i++) {
+total += i;
+}
+return total;
+};
+
+const SumUpTo2 = (n) => {
+return (n \* (n + 1)) / 2;
+};
+
+Big O Notation gives us a precise, numeric and objective way of judging the performance of our code, just by reading it.
+
+Why does Big O / time complexity matter?
+It helps you write better code and becaue as inputs gets bigger and bigger, you code will be efficient . eg Users/Posts
+
+**Counting the Operation**
+
+const sumUpTo = (n) => {
+let total = 0;
+for (let i = 1; i <= n; i++) {
+total += i;
+}
+return total;
+};
+
+Takes 1 \* N operation
+
+O(n) -> order or n operation
+
+const SumUpTo2 = (n) => {
+return (n \* (n + 1)) / 2;
+};
+
+Always just 3 operation, no matter how large is the n.
+
+Total in above code there is 3 operation
+O(3) -> O(1)
+
+**Simplifying Big O Notation**
+
+- Basically constant doesn't matter
+
+O(12) -> O(1)
+O(500) -> O(1)
+O(n/2) ->(n)
+O(2n) - O(n)
+O(13n^2) ->O(n^2)
+O(n+1)->O(n)
+O(n^2+13n+8)-> O(n^2)
