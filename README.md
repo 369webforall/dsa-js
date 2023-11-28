@@ -2,11 +2,15 @@
 
 [Youtube video series](https://www.youtube.com/watch?v=coqQwbDezUA&list=PLC3y8-rFHvwjPxNAKvZpdnsr41E0fCMMP&index=1)
 
+[BIG O Notation-Freecodecamp](https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/)
+
 Data Structures and Algorithms in JavaScript
 
 ## Class recording
 
 [DSA-1](https://youtu.be/K0rzX_fS2MU)
+
+[DSA-2](https://youtu.be/GqF-JUVXe8s)
 
 # Content
 
@@ -212,7 +216,7 @@ return total;
 };
 
 const SumUpTo2 = (n) => {
-return (n \* (n + 1)) / 2;
+return (n\*(n + 1)) / 2;
 };
 
 Big O Notation gives us a precise, numeric and objective way of judging the performance of our code, just by reading it.
@@ -254,3 +258,10 @@ O(2n) - O(n)
 O(13n^2) ->O(n^2)
 O(n+1)->O(n)
 O(n^2+13n+8)-> O(n^2)
+
+# Linked List
+
+- How linked list work
+- Understand the logic of linked list
+- Write program to implement linked list
+- Operation in linked list
